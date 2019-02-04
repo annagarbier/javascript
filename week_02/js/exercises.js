@@ -111,6 +111,21 @@ for (r = 0; r < num_rows; r++) {
 
 /* 7. ASCII Art
  * Create ASCII Art using arrays, loops and conditions.
+ * In this case, creates an 'alphabet tree', like:
+ *              MTPOAAYHXD
+ *         YBTOHHPKBPLMAZNMQU
+ *     YAHCIBZ LKAAB RKRBYMAFSSO
+ *     KOBYDIUXXCHPFUOBBNOLECIYCE
+ *    JZTGUMVBSURMAKWNOBHPJQWZXHMX
+ *   YD QEJODHPTEXLWQGWLTUBCAXZEIJL
+ * KEHCVYROWHEYDVANUYHVMCDXESAUQWTKT
+ * LGVSYTWFIQMMYUAARPGMHMGHLZE LTRDGQ
+ *     ZKSYCQKTWKFOJHFJUDWNU  ZF
+ *               \ |  /
+ *                \| /
+ *                 ||
+ *                 ||
+ * ----------------------------------
  */
 console.log("\n7. ASCII ART");
 
