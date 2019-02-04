@@ -10,7 +10,7 @@
  */
 console.log("1. CONDITIONS TEST");
 
- let rand = 1 + Math.floor(Math.random() * 100); // [1, 100]
+ let rand = 1 + Math.floor(Math.random() * 100);
 
  if (rand % 2 === 0) {
 	 console.log(rand + " is even");
@@ -111,26 +111,12 @@ for (r = 0; r < num_rows; r++) {
 
 /* 7. ASCII Art
  * Create ASCII Art using arrays, loops and conditions.
- * In this case, creates an 'alphabet tree', like:
- *              MTPOAAYHXD
- *         YBTOHHPKBPLMAZNMQU
- *     YAHCIBZ LKAAB RKRBYMAFSSO
- *     KOBYDIUXXCHPFUOBBNOLECIYCE
- *    JZTGUMVBSURMAKWNOBHPJQWZXHMX
- *   YD QEJODHPTEXLWQGWLTUBCAXZEIJL
- * KEHCVYROWHEYDVANUYHVMCDXESAUQWTKT
- * LGVSYTWFIQMMYUAARPGMHMGHLZE LTRDGQ
- *     ZKSYCQKTWKFOJHFJUDWNU  ZF
- *               \ |  /
- *                \| /
- *                 ||
- *                 ||
- * ----------------------------------
  */
 console.log("\n7. ASCII ART");
 
 let letters_string = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z, ";
 let letters = letters_string.split(",");
+
 let numLettersByRow = [10, 25, 34, 33, 30, 28, 26, 25, 18, 10];
 let tree_height = 10;
 let tree_width = 34;
@@ -141,13 +127,13 @@ function chooseLeaf() {
 
 // Leaves
 for (h = tree_height; h > 0; h--) {
-	let leaves_on_this_row = [];
-	let num_leaves_on_this_row = numLettersByRow[h];
-	let offset = Math.floor((tree_width - num_leaves_on_this_row) / 2);
-	for (n = 0; n < num_leaves_on_this_row; n++) {
-		leaves_on_this_row.push(chooseLeaf());
+	let letters_on_this_row = [];
+	let num_letters_on_this_row = numLettersByRow[h];
+	let offset = Math.floor((tree_width - num_letters_on_this_row) / 2);
+	for (n = 0; n < num_letters_on_this_row; n++) {
+		letters_on_this_row.push(chooseLeaf());
 	}
-	console.log(" ".repeat(offset) + leaves_on_this_row.join(""));
+	console.log(" ".repeat(offset) + letters_on_this_row.join(""));
 }
 
 // Trunk
