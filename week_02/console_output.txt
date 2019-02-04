@@ -1,0 +1,154 @@
+1. CONDITIONS TEST
+13 is odd
+
+2. LOOPS AND MATHS OPERATORS
+1 squared is 1
+2 squared is 4
+3 squared is 9
+4 squared is 16
+5 squared is 25
+6 squared is 36
+7 squared is 49
+8 squared is 64
+9 squared is 81
+10 squared is 100
+11 squared is 121
+12 squared is 144
+13 squared is 169
+14 squared is 196
+15 squared is 225
+16 squared is 256
+17 squared is 289
+18 squared is 324
+19 squared is 361
+20 squared is 400
+21 squared is 441
+22 squared is 484
+23 squared is 529
+24 squared is 576
+25 squared is 625
+26 squared is 676
+27 squared is 729
+28 squared is 784
+29 squared is 841
+30 squared is 900
+31 squared is 961
+32 squared is 1024
+33 squared is 1089
+34 squared is 1156
+35 squared is 1225
+36 squared is 1296
+37 squared is 1369
+38 squared is 1444
+39 squared is 1521
+40 squared is 1600
+41 squared is 1681
+42 squared is 1764
+43 squared is 1849
+44 squared is 1936
+45 squared is 2025
+46 squared is 2116
+47 squared is 2209
+48 squared is 2304
+49 squared is 2401
+50 squared is 2500
+51 squared is 2601
+52 squared is 2704
+53 squared is 2809
+54 squared is 2916
+55 squared is 3025
+56 squared is 3136
+57 squared is 3249
+58 squared is 3364
+59 squared is 3481
+60 squared is 3600
+61 squared is 3721
+62 squared is 3844
+63 squared is 3969
+64 squared is 4096
+65 squared is 4225
+66 squared is 4356
+67 squared is 4489
+68 squared is 4624
+69 squared is 4761
+70 squared is 4900
+71 squared is 5041
+72 squared is 5184
+73 squared is 5329
+74 squared is 5476
+75 squared is 5625
+76 squared is 5776
+77 squared is 5929
+78 squared is 6084
+79 squared is 6241
+80 squared is 6400
+81 squared is 6561
+82 squared is 6724
+83 squared is 6889
+84 squared is 7056
+85 squared is 7225
+86 squared is 7396
+87 squared is 7569
+88 squared is 7744
+89 squared is 7921
+90 squared is 8100
+91 squared is 8281
+92 squared is 8464
+93 squared is 8649
+94 squared is 8836
+95 squared is 9025
+96 squared is 9216
+97 squared is 9409
+98 squared is 9604
+99 squared is 9801
+100 squared is 10000
+
+3. RANDOM AND WHILE LOOP
+TAILS ...got it!
+
+4. FACTORIAL
+7! = 5040
+
+5. SIMPLE STRING PATTERN
+#
+##
+###
+####
+#####
+######
+#######
+########
+#########
+    #
+   ###
+  #####
+ #######
+#########
+
+6. COMPLEX STRING PATTERN
+| # # # #|
+|# # # # |
+| # # # #|
+|# # # # |
+| # # # #|
+|# # # # |
+| # # # #|
+|# # # # |
+
+7. ASCII ART
+
+            MTPOAAYHXD
+        YBTOHHPKBPLMAZNMQU
+    YAHCIBZ LKAAB RKRBYMAFSSO
+    KOBYDIUXXCHPFUOBBNOLECIYCE
+   JZTGUMVBSURMAKWNOBHPJQWZXHMX
+  YD QEJODHPTEXLWQGWLTUBCAXZEIJL
+KEHCVYROWHEYDVANUYHVMCDXESAUQWTKT
+LGVSYTWFIQMMYUAARPGMHMGHLZE LTRDGQ
+    ZKSYCQKTWKFOJHFJUDWNU  ZF
+              \ |  /
+               \| /
+                ||
+                ||
+----------------------------------
+The alphabet tree from the kids' book 'Chicka Chicka Boom Boom'.
