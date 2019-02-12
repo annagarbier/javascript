@@ -35,14 +35,15 @@ getAllPowersBtwn(); // Default range is [1-100] each raised to 2
 getAllPowersBtwn(20, 23, 3); // Custom range [20-23] each rauised to 3
 
 // Update: practices closures
-function power(number) {
-	let ret = function(power) {
+function power(number = 1) {
+	let ret = function(power = 1) {
 		let answer = Math.pow(number, power);
 		console.log(number + "^" + power + " = " + answer);
 	}
 	return ret;
 }
 
+power()(); // 1^1
 power(4)(5); // 4^5
 power(2)(7); // 2^7
 
@@ -72,14 +73,15 @@ while (heads_or_tails != "TAILS") { // alternatively, store as int 0
 console.log("\n4. FACTORIAL");
 
 // Update: paramaterizes the input `number`
-function getFactorial(number) {
+function getFactorial(number = 10) {
 	let answer = 1;
 	for (n = 1; n <= number + 1; n++) {
 		answer *= n;
 	}
 	console.log(number + "! = " + answer)
 }
-getFactorial(10); // 10!
+getFactorial(); // 10!
+getFactorial(12); // 12!
 
 
 /* 5. Patterns using Loops
@@ -114,7 +116,8 @@ function drawIsosceles(base_width = 15) {
 	console.log(' '.repeat(num_spaces) + '#'.repeat(i));	
 	}
 }
-drawIsosceles(31);
+drawIsosceles(); // traingle with base of 15
+drawIsosceles(31); // traingle with base of 31
 
 /* 6. Complex Patterns
  * Using the loop approach above, create a chess board using # and space ' '.
@@ -122,7 +125,7 @@ drawIsosceles(31);
  */
 console.log("\n6. COMPLEX STRING PATTERN");
 
-function drawBoard(rows, cols) {
+function drawBoard(rows = 8, cols = 8) {
 	for (r = 0; r < rows; r++) {
 		let bigram;
 		if (r % 2 === 0) {
@@ -133,9 +136,9 @@ function drawBoard(rows, cols) {
 		console.log('|' + bigram.repeat(cols / 2) + '|');
 	}
 }
-drawBoard(8, 8);
-drawBoard(10, 7);
-drawBoard(5, 15);
+drawBoard(); // 8x8 board
+drawBoard(10, 7); // 10x7 board
+drawBoard(5, 15); // 5x15 board
 
 
 /* 7. ASCII Art
@@ -181,4 +184,6 @@ function drawTree(tree_height = 17, tree_width = 71) {
 	}
 }
 
-drawTree(10, 40);
+drawTree(); // 17chars tall x 71chars wide tree
+drawTree(10, 40); // 10chars tall x 40chars wide tree
+drawTree(3, 10); // ERROR message
