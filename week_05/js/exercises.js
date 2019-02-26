@@ -2,11 +2,11 @@
  * Question-Answer bot
  * 2018-02-26
  * 
- * Week 4 (lines 13-69): A CoffeeTriviaBot answers questions from the user about coffee.
+ * Week 4 (lines 13-72): A CoffeeTriviaBot answers questions from the user about coffee.
  * Questions are read from an html <input> element, processed
  * with simple regex, and answered back to the user via an html <p>.
  * 
- * Week 5 addition (lines 71-90): 
+ * Week 5 addition (lines 73-90): 
  * Adds event listeners, and modifies the DOM styling and content
  * using listeners.
  */
@@ -76,7 +76,7 @@ let button_node = document.getElementsByTagName('button')[0];
 let input_node = document.getElementsByTagName('input')[0];
 let tooltip_node = document.getElementsByClassName('tooltip')[0];
 
-// process request and respond
+// process user's request and respond
 button_node.addEventListener("click", function() {
 	bot.logPromptAndAnswer();
 });
