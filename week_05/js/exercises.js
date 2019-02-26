@@ -1,5 +1,5 @@
-/* JavaScript Week 4 - HW
- * Question-Answer bot
+/* JavaScript Week 5 - HW
+ * Question-Answer bot with tooltip
  * 2018-02-26
  * 
  * Week 4 (lines 13-72): A CoffeeTriviaBot answers questions from the user about coffee.
